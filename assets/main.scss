@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.title-holder {
+    float: left;
+    padding-left: 48px;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+    background-size: 48px;
+    background-image: url('/assets/images/avatar.png')
+}
+
+.title-holder .site-title {
+    float: none
+}
+
+.post-content .image-container img {
+    max-width: 45%;
+    max-height: 248px;
+    display: block;
+    margin: auto;
+}
